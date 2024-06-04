@@ -332,7 +332,8 @@ namespace Community.CsharpSqlite.SQLiteClient
 			return Convert.ToByte (((object[]) rows[current_row])[i]);
 		}
 
-		public override long GetBytes (int i, long fieldOffset, byte[] buffer, int bufferOffset, int length)
+
+        public override long GetBytes (int i, long fieldOffset, byte[] buffer, int bufferOffset, int length)
 		{
 			byte[] data = (byte[])(((object[]) rows[current_row])[i]);
 			if (buffer != null)

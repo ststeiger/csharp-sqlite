@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite.SQLiteClient", "Community.CsharpSqlite.SQLiteClient.csproj", "{7BC68E61-C64C-488C-975F-1E2248383B80}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F} = {F1653F20-D47D-4F29-8C55-3C835542AF5F}
@@ -9,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteClientTests", "SQLiteClientTests.csproj", "{B83741E9-7012-491E-B15D-3B083506A143}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite", "..\Community.CsharpSqlite\Community.CsharpSqlite.csproj", "{F1653F20-D47D-4F29-8C55-3C835542AF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "..\ConsoleApp3\ConsoleApp3.csproj", "{431EFE9B-AFB5-4537-991E-5947C2BAEA15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +46,14 @@ Global
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|x86.ActiveCfg = Release|x86
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|x86.Build.0 = Release|x86
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Debug|x86.Build.0 = Debug|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Release|x86.ActiveCfg = Release|Any CPU
+		{431EFE9B-AFB5-4537-991E-5947C2BAEA15}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

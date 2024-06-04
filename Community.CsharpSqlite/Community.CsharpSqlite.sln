@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite", "Community.CsharpSqlite.csproj", "{F1653F20-D47D-4F29-8C55-3C835542AF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{BD349C01-39F1-45DE-A4A6-90F5943FCB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "..\ConsoleApp2\ConsoleApp2.csproj", "{12959CCF-7ED4-4717-8092-787B000CAF2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +19,19 @@ Global
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1653F20-D47D-4F29-8C55-3C835542AF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD349C01-39F1-45DE-A4A6-90F5943FCB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD349C01-39F1-45DE-A4A6-90F5943FCB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD349C01-39F1-45DE-A4A6-90F5943FCB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD349C01-39F1-45DE-A4A6-90F5943FCB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12959CCF-7ED4-4717-8092-787B000CAF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12959CCF-7ED4-4717-8092-787B000CAF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12959CCF-7ED4-4717-8092-787B000CAF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12959CCF-7ED4-4717-8092-787B000CAF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8404D11E-E94F-4CD3-958D-D226ED270817}
 	EndGlobalSection
 EndGlobal
